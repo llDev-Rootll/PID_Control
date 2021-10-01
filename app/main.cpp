@@ -1,8 +1,13 @@
+/*Copyright 2021 Arunava Basu, Shon Byron Cortes, Anubhav Paras & Charu Sharma */
 #include <iostream>
-#include <lib.hpp>
+#include <Motor.h>
 
-int main()
-{
-    dummy();
-    return 0;
+using std::cout;
+using std::cin;
+int main(){ 
+/*******************************************************************************
+ *The main function takes the velocity input and calls the drive function of the Motor class
+ ******************************************************************************/
+
+return 1;
 }
