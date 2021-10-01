@@ -27,8 +27,9 @@ The present voltage is updated with the controller output until it reaches withi
 <img alt="UML" src="assets/UML.png" width="200" />
 *Fig 1 :  UML class diagram*
 
+
 The activity diagram is as follows : 
 
-<img alt="Activity" src="assets/Activity.png" width="200" />
-*Fig 1 :  Activity diagram*
+<img alt="Activity" src="assets/Activity.png" width="500" />
+*Fig 2 :  Activity diagram*
 
