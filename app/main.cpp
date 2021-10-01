@@ -6,7 +6,8 @@ using std::cout;
 using std::cin;
 int main(){ 
 /*******************************************************************************
- *The main function takes the velocity input and calls the drive function of the Motor class
+ * The main function takes the velocity input and calls the drive function of the Motor class
+ * The drive function returns the final velocity attained
  ******************************************************************************/
 
 return 1;
