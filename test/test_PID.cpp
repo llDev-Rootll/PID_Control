@@ -12,6 +12,7 @@ Anubhav Paras & Charu Sharma */
  */
 TEST(PID, test1) {
   PID pid(0.1, 0.01, 0.5);
+
   EXPECT_EQ(51.1, pid.calculate(10, 0));
 }
 
@@ -21,6 +22,7 @@ TEST(PID, test1) {
  */
 TEST(PID, test2) {
   PID pid(0.1, 0.01, 0.5);
+
   EXPECT_EQ(100, pid.calculate(200, 100));
 }
 
