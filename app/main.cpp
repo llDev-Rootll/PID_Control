@@ -1,14 +1,17 @@
-/*Copyright 2021 Arunava Basu, Shon Byron Cortes, Anubhav Paras & Charu Sharma */
+/*Copyright 2021 Arunava Basu, Shon Byron Cortes, 
+Anubhav Paras & Charu Sharma */
+
 #include <iostream>
-#include <Motor.h>
 
 using std::cout;
 using std::cin;
-int main(){ 
-/*******************************************************************************
- * The main function takes the velocity input and calls the drive function of the Motor class
- * The drive function returns the final velocity attained
- ******************************************************************************/
+using std::endl;
 
-return 1;
+/**
+ * @brief Starting point for PID execution. Instantiate a PID object with initial and target velocities.
+ * 
+ * @return int 
+ */
+int main() {
+// To do pair 2
 }
