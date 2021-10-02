@@ -1,3 +1,5 @@
+/*Copyright 2021 Arunava Basu, Shon Byron Cortes, 
+Anubhav Paras & Charu Sharma */
 #include <gtest/gtest.h>
 
 int main(int argc, char** argv) {
