@@ -43,5 +43,5 @@ The activity diagram is as follows :
     make
     
 ### Steps to run
-    ./shell-app
+    ...<path_to_directory>/app/shell-app
    

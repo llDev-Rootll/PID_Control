@@ -13,7 +13,7 @@ Anubhav Paras & Charu Sharma */
 TEST(PID, test1) {
   PID pid(0.1, 0.01, 0.5);
 
-  EXPECT_EQ(51.1, pid.calculate(10, 0));
+  EXPECT_EQ(51.01, pid.calculate(10, 0));
 }
 
 /**
