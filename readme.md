@@ -1,4 +1,3 @@
-# C++ Boilerplate
 [![Build Status](https://app.travis-ci.com/llDev-Rootll/PID_Motor.svg?branch=master)](https://app.travis-ci.com/llDev-Rootll/PID_Motor)
 [![Coverage Status](https://coveralls.io/repos/github/llDev-Rootll/PID_Motor/badge.svg?branch=master)](https://coveralls.io/github/llDev-Rootll/PID_Motor?branch=master)
 ---
