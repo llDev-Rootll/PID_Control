@@ -34,3 +34,14 @@ The activity diagram is as follows :
 <img alt="Activity" src="assets/Activity.png" width="500" />
 *Fig 2 :  Activity diagram*
 
+### Steps to build 
+
+    cd ...<path_to_directory>/
+    mkdir build
+    cd build
+    cmake ..
+    make
+    
+### Steps to run
+    ./shell-app
+   
