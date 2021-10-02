@@ -21,7 +21,7 @@ The members of the first pair for Part 1 of this repository are :
  - Shon Cortes (Navigator
  
 ## Description
-The design contains two classes, PID and Motor. The main function takes the target velocity and present velocity as input and called the motor drive function. The motor drive function contains the logic for converting the velocity to voltage and feeding the corresponding target voltage and present voltage to the calculate function of the PID class. 
+The design contains one class, PID. The main function takes the target velocity and present velocity as input and calls the calculate function of the PID class for 100 iterations.
 The present voltage is updated with the controller output until it reaches within a margin of the target voltage. The UML class diagram is as follows : 
 
 
