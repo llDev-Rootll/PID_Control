@@ -17,7 +17,12 @@ This repository pertains to the test driven development exercise. The group memb
 ## Part 1 
 The members of the first pair for Part 1 of this repository are :
  - Arunava Basu (Driver)
- - Shon Cortes (Navigator
+ - Shon Cortes (Navigator)
+
+ ## Part 2 
+The members of the first pair for Part 1 of this repository are :
+ - Charu Sharma (Driver)
+ - Anubhav Paras (Navigator)
  
 ## Description
 The design contains one class, PID. The main function takes the target velocity and present velocity as input and calls the calculate function of the PID class for 100 iterations.
@@ -34,13 +39,25 @@ The activity diagram is as follows :
 *Fig 2 :  Activity diagram*
 
 ### Steps to build 
-
+```
     cd ...<path_to_directory>/
     mkdir build
     cd build
     cmake ..
     make
-    
+```    
 ### Steps to run
+```
     ...<path_to_directory>/app/shell-app
-   
+```
+
+### Steps to run cppcheck and cpplint
+Run cppcheck: Results are stored in `./results/cppcheck_process_part2.txt`, `./results/cppcheck_result_part2.txt` 
+```
+sh run_cppcheck.sh
+```
+
+Run cpplint: Results are stored in `./results/cpplint_result_part2.txt`
+```
+sh run_cpplint.sh
+```
