@@ -1,5 +1,5 @@
 [![Build Status](https://app.travis-ci.com/llDev-Rootll/PID_Control.svg?branch=master)](https://app.travis-ci.com/llDev-Rootll/PID_Control)
-[![Coverage Status]([![Coverage Status](https://coveralls.io/repos/github/llDev-Rootll/PID_Control/badge.svg?branch=master)](https://coveralls.io/github/llDev-Rootll/PID_Control?branch=master))](https://coveralls.io/github/llDev-Rootll/PID_Motor?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/llDev-Rootll/PID_Control/badge.svg?branch=master)](https://coveralls.io/github/llDev-Rootll/PID_Control?branch=master)
 ---
 
 
