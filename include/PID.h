@@ -1,6 +1,9 @@
 /*Copyright 2021 Arunava Basu, Shon Byron Cortes, 
  Anubhav Paras & Charu Sharma */
-#pragma once
+
+#ifndef PID_H_
+#define PID_H_
+
 #include <iostream>
 
 using std::cout;
@@ -44,3 +47,4 @@ class PID {
   double _max_velocity;
   double _min_velocity;
 };
+#endif  // PID_H_
