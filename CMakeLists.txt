@@ -11,7 +11,7 @@ if (COVERAGE)
     include(CodeCoverage)
     set(LCOV_REMOVE_EXTRA "'vendor/*'")
     set(LCOV_REMOVE_EXTRA "'app/*'") 
-    setup_target_for_coverage(code_coverage test/cpp-test coverage)
+    setup_target_for_coverage(code_coverage test/cpp-test coverage EXCLUDE "'app/*'")
     set(COVERAGE_SRCS app/main.cpp include/PID.h src/PID.cpp)
 
     SET(CMAKE_CXX_FLAGS "-g -O0 -fprofile-arcs -ftest-coverage")
