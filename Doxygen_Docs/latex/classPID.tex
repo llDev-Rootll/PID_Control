@@ -1,0 +1,60 @@
+\hypertarget{classPID}{}\doxysection{P\+ID Class Reference}
+\label{classPID}\index{PID@{PID}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classPID_a2e18af06ea0c0c70e6f750c32cfadb1a}{P\+ID}} (double Kp, double Ki, double Kd)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classPID}{P\+ID}} object. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classPID_a31fbf29d646c084de75da807aad461bf}{calculate}} (double target\+\_\+velocity, double present\+\_\+velocity)
+\begin{DoxyCompactList}\small\item\em A function which computes the \mbox{\hyperlink{classPID}{P\+ID}} controller output value. target\+\_\+voltage is used to store the setpoint present\+\_\+voltage is used to store the present voltage value Steps to calculate output \+: 1) error is the difference between the target and the present voltage 2) The proportional term is Kp times the error 3) The error is multiplied with the time step dt and added to the integral variable 4) The integral term is Ki times the integral variable 5) The derivate term is Kd times the difference in present error and previous error divided by the time step 6) Total output is the bounded (withing min and max) sum of the proportional, integral, and derivate term. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classPID_a2e18af06ea0c0c70e6f750c32cfadb1a}\label{classPID_a2e18af06ea0c0c70e6f750c32cfadb1a}} 
+\index{PID@{PID}!PID@{PID}}
+\index{PID@{PID}!PID@{PID}}
+\doxysubsubsection{\texorpdfstring{PID()}{PID()}}
+{\footnotesize\ttfamily P\+I\+D\+::\+P\+ID (\begin{DoxyParamCaption}\item[{double}]{Kp,  }\item[{double}]{Ki,  }\item[{double}]{Kd }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{classPID}{P\+ID}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Kp} & Proportional gain \\
+\hline
+{\em Ki} & Integral gain \\
+\hline
+{\em Kd} & Derivitive gain \\
+\hline
+\end{DoxyParams}
+Initialize kp, ki, kd to their respective values. Time step set to 0.\+1. previous error, min velocity and integral are 0, max velocity is 100.
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classPID_a31fbf29d646c084de75da807aad461bf}\label{classPID_a31fbf29d646c084de75da807aad461bf}} 
+\index{PID@{PID}!calculate@{calculate}}
+\index{calculate@{calculate}!PID@{PID}}
+\doxysubsubsection{\texorpdfstring{calculate()}{calculate()}}
+{\footnotesize\ttfamily double P\+I\+D\+::calculate (\begin{DoxyParamCaption}\item[{double}]{target\+\_\+velocity,  }\item[{double}]{present\+\_\+velocity }\end{DoxyParamCaption})}
+
+
+
+A function which computes the \mbox{\hyperlink{classPID}{P\+ID}} controller output value. target\+\_\+voltage is used to store the setpoint present\+\_\+voltage is used to store the present voltage value Steps to calculate output \+: 1) error is the difference between the target and the present voltage 2) The proportional term is Kp times the error 3) The error is multiplied with the time step dt and added to the integral variable 4) The integral term is Ki times the integral variable 5) The derivate term is Kd times the difference in present error and previous error divided by the time step 6) Total output is the bounded (withing min and max) sum of the proportional, integral, and derivate term. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em target\+\_\+velocity} & Desired final velocity \\
+\hline
+{\em present\+\_\+velocity} & Current velocity \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double Final velocity calculated by \mbox{\hyperlink{classPID}{P\+ID}} controller 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/P\+I\+D.\+h\item 
+src/P\+I\+D.\+cpp\end{DoxyCompactItemize}
